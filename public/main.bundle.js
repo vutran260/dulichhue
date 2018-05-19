@@ -1556,7 +1556,7 @@ var ValidateService = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GlobalVariable; });
 var GlobalVariable = Object.freeze({
-    BASE_API_URL: 'http://localhost:8080/',
+    BASE_API_URL: 'https://dulichhue.herokuapp.com/',
 });
 
 
