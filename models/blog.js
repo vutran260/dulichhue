@@ -99,7 +99,7 @@ module.exports.searchBlogs = function (q, callback) {
 }
 
 module.exports.findById = function (_id, callback) {
-    let query = {_id: _id};
+    let query = {_id: _id, hidden: true};
     Blog.findOne(query, callback);
 }
 

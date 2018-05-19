@@ -11,7 +11,7 @@ var multer  = require('multer');
 // Config Multer Storage
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, './public/assets/images/avatar/');
+        cb(null, '/assets/images/avatar/');
     },
     filename: function (req, file, cb) {
     	var ext = file.mimetype.split('/').pop();
